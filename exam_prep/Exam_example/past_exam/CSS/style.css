@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/*NAV*/
+
+.nav-link {
+    color: #443266;
+}
+
+
+/*HEADER*/
+#main_heading {
+    color: #443266;
+    font-weight: 600;
+}
+
+.jumbotron {
+    background-color: #C3C3E5;
+}
+
+.line {
+    height: 0.5px;
+    background-color: #443266;
+}
+
+.button-purple {
+    background-color: #443266;
+}
+
+/*MAIN*/
+
+.progress-bar {
+    background-color: #8C489F;
+}
+
+.bar_light {
+    background-color: #C3C3E5;
+}
+
+
+/*ASIDE*/
+
+aside {
+    background-color: #C3C3E5;
+    border-radius: 10px;
+}
+
+i.fas {
+    color: #443266;
+    font-size: 25px;
+}

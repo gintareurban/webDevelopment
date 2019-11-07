@@ -1,0 +1,18 @@
+
+body{
+    font-family: Tahoma;
+}
+
+i{
+    color: gold;
+    font-size: 60px;
+    
+}
+
+/*
+main>div:nth-child(5){
+    padding: 30px;
+    outline: 2px solid gold;
+}
+*/
+

@@ -1,0 +1,124 @@
+/* CSS reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    /*    box-sizing: border-box;*/
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 100;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+h5 {
+    font-weight: normal;
+}
+
+.smallHeading {
+    font-size: 75%;
+}
+
+.container {
+    width: 50%;
+    margin: 0 auto;
+}
+
+/* HEADER */
+
+#top {
+    background: url(../IMG/header_photo.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    font-family: Verdana, Geneva, sans-serif;
+
+}
+
+
+#alpha {
+    background: rgba(233, 109, 99, 0.7);
+
+}
+
+#header-i {
+    font-size: 40px;
+}
+
+#header-button {
+    background: #06425C;
+    color: white;
+    font-size: 0.5rem;
+    padding: 5px 20px;
+    border-radius: 100px;
+}
+
+/*NAV*/
+
+#navigation {
+    background: #06425C;
+    color: white;
+    text-align: center
+}
+
+#navigation i {
+    margin: 15px;
+}
+
+#navigation a {
+    color: rgba(233, 109, 99);
+    font-size: 50%;
+}
+
+
+
+
+/* MAIN */
+
+.article-button {
+    background: rgba(233, 109, 99);
+    color: white;
+    font-size: 0.7rem;
+    padding: 3px 5px;
+    border-radius: 16px;
+}
+
+#middle {
+    background: url(../IMG/bg_grayscale.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#beta {
+    background: rgba(255, 255, 255, 0.8);
+}
+
+
+
+
+
+/* FOOTER*/
+
+#bottom {
+    background: #06425C;
+    color: antiquewhite;
+    overflow: hidden;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}

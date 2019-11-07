@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/style.css">
+
+
+</head>
+
+<body>
+
+    <form>
+        <div class="form-group">
+            <label for="guessValue">Guess a number 1 to 3:</label><br>
+            <input type="text" class="form-control" id="guessValue">
+        </div><br>
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+    <br>
+    <div style="display:none" id="wrong">
+       <img src="https://media.giphy.com/media/hPPx8yk3Bmqys/giphy.gif" alt= "wrong"> 
+        <h2>Wrong! Guess again.</h2>
+        <h2 id="msgWrong"></h2>
+    </div>
+    <div style="display:none" id="correct">
+       <img src="https://media.giphy.com/media/rypyVNU547qrC/giphy.gif" alt= "victory">
+       <h2>Victory dance!</h2>  
+    </div>
+    <h2 id="guessCountMsg"></h2>
+
+
+
+    <script src="JS/main.js"></script>
+
+</body>
+
+</html>

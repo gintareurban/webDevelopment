@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url(http://fonts.googleapis.com/css?family=Varela+Round);
+
+
+
+/*general*/
+.heading_purple {
+    color: #b878b5;
+    font-family: "Varela Round";
+}
+
+/*nAV*/
+
+.nav-link {
+    color: #b878b5;
+    font-size: 1.4rem;
+}
+
+/*HEADER*/
+
+h1 {
+    color: #b878b5;
+    font-family: "Varela Round";
+    font-size: 75px;
+    letter-spacing: 10px;
+}
+
+.header-name {
+    font-weight: lighter;
+}
+
+/*MAIN*/
+
+.btn {
+    background: #b878b5;
+    border: none;
+}
+
+
+article > a {
+    color: #b878b5;
+    text-decoration: none;
+}
+
+a:hover {
+    color: darkgray;
+    text-decoration: none;
+
+}
+
+
+
+/*FOOTER*/
+i.fab {
+    color: #b878b5;
+    font-size: 25px;
+
+}
+
+#footer_icon {
+    text-align: center;
+}
+
+@media screen and (min-width: 992px) {
+    #footer_icon {
+        text-align: left;
+    }
+}

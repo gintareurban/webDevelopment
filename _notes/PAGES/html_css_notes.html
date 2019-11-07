@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CHANGE TITLE!!!</title>
+    <meta name="author" content="Gintare Urbanaviciute">
+    <meta name="description" content="HTML, CSS, Javascript practice">
+    <link rel="stylesheet" href="../CSS/normalise.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../CSS/html_css_notes.css">
+    <script src="https://kit.fontawesome.com/c2b276f715.js" crossorigin="anonymous"></script>
+    <!--
+ FOR TABLES:
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+-->
+</head>
+
+<body>
+    <!--   inline style eg-->
+    <!--   <p style="font-size: .9em; margin-bottom: 1.2em;"></p>-->
+
+
+
+    <!--    IMAGE with description-->
+    <figure>
+        <img src="../IMG/htmllogo.jpg" alt="html_logo">
+        <figcaption>
+            This is HTML logo
+        </figcaption>
+    </figure>
+
+    <!--    Line accross the page-->
+    <hr>
+
+    <!--    IMAGE-->
+    <img src="../IMG/htmllogo.jpg" alt="html_logo">
+
+    <!--    TEXT-->
+    <p><b><i>This is HTML logo</i></b></p>
+
+    <!--    LINK-->
+    <a href="naujienos.html" target="_blank">News</a>
+    <a href="mailto:webmaster@example.com">Email us</a>
+    <a href="#first">Lorem1</a>
+    <h3 id="first">Lorem1</h3>
+
+    <!--    UNORDERED list-->
+    <ul>
+        <li>Lorem1</li>
+        <li>Lorem2</li>
+        <li>Lorem3</li>
+    </ul>
+
+    <!--ORDERED list-->
+    <ol>
+        <li>Lorem1</li>
+        <li>Lorem2</li>
+        <li>Lorem3</li>
+    </ol>
+
+    <!--/* example to give a START position for ordered list-->
+    <ol type="I" start="50"> //start might not be used anymore
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ol>
+
+    <!--REVERSED:-->
+    <ol reversed>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ol>
+
+    <!--START VALUE:-->
+    <ol>
+        <li value="100">Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+        <li>Water</li>
+    </ol>
+
+    <!--    NESTED LIST-->
+    <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3
+            <ol>
+                <li>3.1</li>
+                <li>3.2</li>
+            </ol>
+        </li>
+        <li>4</li>
+    </ul>
+
+    <!--Dictionary-->
+    <dl>
+        <dt>title</dt>
+        <dd>description</dd>
+        <dt>title</dt>
+        <dd>description</dd>
+    </dl>
+
+    <!--    TABLE-->
+    <table>
+        <caption>Title</caption>
+        <tr>
+            <th>Name</th>
+            <th>Surname</th>
+        </tr>
+        <tr>
+            <td>Jonas</td>
+            <td>Jonaitis</td>
+        </tr>
+    </table>
+
+    <!--    TABLE merged column eg-->
+    <table>
+        <caption>Grafikas</caption>
+        <tr>
+            <td>1col</td>
+            <td>2col</td>
+            <td>3col</td>
+        </tr>
+        <tr>
+            <td>Jonas</td>
+            <td colspan="2">Petras</td> //merged col2 and col3
+        </tr>
+    </table>
+
+    <!--    TABLE merged rows-->
+    <table>
+        <caption>Info</caption>
+        <tr>
+            <th>Vardas</th>
+            <td>Jonas Jonaitis</td>
+        </tr>
+        <tr>
+            <th rowspan="2">Telefonai</th>
+            <td>+370 666 99988</td>
+        </tr>
+        <tr>
+            <td>+370 666 999 77</td>
+        </tr>
+    </table>
+
+    <br>
+    <!--HTML FORMS-->
+    <form action="/action_page.php" method="post">
+        Vardas: <br>
+        <input type="text" name="vardas" value="Jonas"> <br>
+        Pavarde: <br>
+        <input type="text" name="pavarde" value="Jonaitis"> <br>
+        <input type="submit" value="Patvirtinti">
+    </form>
+
+    <br>
+    <!--FORM with radio buttons-->
+    <form>
+        Pasirinkite: <br>
+        <input type="radio" name="lytis" value="mot" checked> Moteris <br>
+        <input type="radio" name="lytis" value="vyr"> Vyras <br>
+        <input type="radio" name="lytis" value="kita"> Kita <br>
+    </form>
+
+
+    <script src="../JS/main.js"></script>
+</body></html>

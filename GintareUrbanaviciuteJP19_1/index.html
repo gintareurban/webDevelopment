@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Dance School Move</title>
+    <meta name="author" content="Gintare Urbanaviciute">
+    <meta name="description" content="2019 11 07 exam">
+    <link rel="stylesheet" href="CSS/normalise.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <script src="https://kit.fontawesome.com/c2b276f715.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <header class="container border-bottom">
+        <section class="row">
+            <section class="col-12 col-lg-6 mt-2">
+                <section class="row">
+                    <h1>Move</h1>
+                </section>
+                <section class="row">
+                    <p class="text-secondary">Gintarė Urbanavičiūtė JP19/1</p>
+                </section>
+
+            </section>
+            <section class="col-12 col-lg-6 mt-2 pt-4">
+                <form id="search_form" name="search_form">
+                    <div class="form-group">
+                        <label for="search_form_name">Dance Performance</label>
+                        <input type="text" class="form-control" id="search_form_name" placeholder="Search by Dance Performance Name" autofocus>
+                    </div>
+                </form>
+            </section>
+        </section>
+    </header>
+
+    <nav class="container">
+        <ul class="nav nav-fill">
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Classes</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Staff</a>
+            </li>
+        </ul>
+    </nav>
+
+    <section class="container">
+        <div id="carousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="IMG/slide-2.jpg" class="d-block w-100" alt="staff">
+                </div>
+                <div class="carousel-item">
+                    <img src="IMG/slide-3.jpg" class="d-block w-100" alt="dance">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <main class="container">
+        <section class="row">
+            <section class="col-lg-4 d-none d-lg-block my-5">
+                <img src="IMG/page1_img1.jpg" alt="dancer" class="img-fluid">
+            </section>
+
+            <section class="col-lg-8 my-5">
+                <form id="registration_form" name="registration">
+                    <h4 class="heading_purple">The Way You Move | Registration</h4>
+                    <div class="form-group">
+                        <label for="firstname">Firstname</label>
+                        <input type="text" class="form-control" id="firstname" placeholder="Firstname" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="lastname">Lastname</label>
+                        <input type="text" class="form-control" id="lastname" placeholder="Lastname" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="age_group_select">Age Groups</label>
+                        <select class="form-control" id="age_group_select">
+                            <option value="13-18">13-18</option>
+                            <option value="19-24">19-24</option>
+                            <option value="25-30">25-30</option>
+                            <option value="31-40">31-40</option>
+                            <option value="41 and more">41 and more</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="performance_name">The name of the dance performance</label>
+                        <input type="text" class="form-control" id="performance_name" placeholder="The name of the dance performance" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="music_url">URL to Music on YOUTUBE</label>
+                        <input type="url" class="form-control" id="music_url" placeholder="URL" required>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Register</button>
+                </form>
+            </section>
+        </section>
+        <section class="row">
+            <section class="col-12 col-lg-6 my-4">
+                <section class="row">
+                    <h2 class="heading_purple px-3">Recent Publications</h2>
+                </section>
+                <section class="row">
+                    <article class="col-12 col-md-6 my-3">
+                        <h4 class="heading_purple">How to Join</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum rerum hic unde vero numquam!</p>
+                        <a href="#">more</a>
+                    </article>
+                    <article class="col-12 col-md-6 my-3">
+                        <h4 class="heading_purple">Our Styles</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum rerum hic unde vero numquam!</p>
+                        <a href="#">more</a>
+                    </article>
+                </section>
+                <section class="row">
+                    <article class="col-12 col-md-6 my-3">
+                        <h4 class="heading_purple">Schedule</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum rerum hic unde vero numquam!</p>
+                        <a href="#">more</a>
+                    </article>
+                    <article class="col-12 col-md-6 my-3">
+                        <h4 class="heading_purple">Flexibility &amp; Strength</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum rerum hic unde vero numquam!</p>
+                        <a href="#">more</a>
+                    </article>
+                </section>
+            </section>
+
+            <section class="col-12 col-lg-6 my-4 text-center">
+                <img src="IMG/page1_img2.jpg" alt="dancer_two" class="img">
+            </section>
+        </section>
+    </main>
+
+    <footer class="container">
+        <section class="row my-4">
+            <section id="footer_icon" class="col">
+                <i class="fab fa-facebook-square"></i>
+                <span class="mx-2">&#64;danceschool.org</span>
+            </section>
+        </section>
+        <section class="row my-4">
+            <article class="col text-center">
+                <p>Gintarė Urbanavičiūtė JP19/1</p>
+                <p>2019 - 2020 m.m.</p>
+            </article>
+        </section>
+    </footer>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="JS/main.js"></script>
+
+</body></html>

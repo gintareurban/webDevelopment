@@ -1,0 +1,15 @@
+body{
+    font-family: Tahoma;
+}
+
+body>div>div:nth-child(1n+2) {
+    color: red;
+}
+
+.row:last-child{
+    color:red;
+}
+
+body>div>div:nth-child(2)>div:last-child, body>div>div:nth-child(3)>div:first-child {
+    color: green;
+}

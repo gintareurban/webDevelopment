@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*header*/
+
+.jumbotron {
+    background: url(../IMG/amel-majanovicgr.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    letter-spacing: 4px;
+}
+
+
+#alpha {
+    background: rgba(255, 255, 255, 0.7);
+
+}
+
+#header-profile {
+    width: 9rem;
+    height: 9rem;
+}
+
+
+/*navbar*/
+
+.nav-item {
+    font-size: 130%;
+}
+
+
+@media screen and (max-width: 575px) {
+    .nav {
+        text-align: center;
+        float: none;
+        display: block;
+    }
+}
+
+/*main*/
+
+
+h5 {
+    font-weight: normal;
+}
+
+.p-indent {
+    text-indent: 30px;
+}
+
+.logo {
+    max-width: 100%;
+    height: auto;
+    width: auto\9;
+    /* ie8 */
+
+    filter: gray;
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+    opacity: 0.4;
+    border: none;
+}
+
+/*footer*/
+
+i {
+    color: white;
+    font-size: 25px;
+}
+
+#footer-bottom {
+    background-color: #303030;
+    overflow: hidden;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}

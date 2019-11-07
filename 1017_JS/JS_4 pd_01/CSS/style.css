@@ -1,0 +1,23 @@
+#back {
+
+    background-color: antiquewhite;
+    height: 1000px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#alpha {
+    background: rgba(255, 255, 255, 0.5);
+    height: 1000px;
+}
+
+h1 {
+    color: #003366;
+}
+
+h2 {
+    color: #313C53;
+    font-weight: 600;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}

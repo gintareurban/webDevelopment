@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>JS_7 pd_02</title>
+    <meta name="author" content="Gintare Urbanaviciute">
+    <meta name="description" content="HTML, CSS, Javascript practice">
+    <link rel="stylesheet" href="CSS/normalise.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="https://kit.fontawesome.com/c2b276f715.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <main>
+        <section class="container bg-info">
+            <h1 class="">E-bank</h1>
+            <form class="text-light font-weight-bold">
+
+                <div class="form-group row">
+                    <label for="inputAmount" class="col-2 col-form-label">Amount</label>
+
+                    <div class="col">
+                        <input type="text" class="form-control" id="inputAmount" placeholder="enter amount in Eur">
+                    </div>
+
+
+                    <div class="col-4">
+                        <select id="select_action" class="form-control">
+                            <option value="0" selected>Choose...</option>
+                            <option value="1">Deposit</option>
+                            <option value="2">Withdraw</option>
+                        </select>
+                    </div>
+                </div>
+
+                <button type="submit" class="btn btn-secondary py-1 mb-4">Confirm</button>
+
+                <p class="font-italic py-3 mb-0">Current account balance: <span id="amount">0</span> EUR</p>
+            </form>
+
+        </section>
+
+        <section class="container pt-4 bg-light">
+            <button type="click" id="btn_statement" class="btn btn-secondary py-1 mb-4">Show statement</button>
+        </section>
+
+        <section id="statement" class="container bg-light" style="display: none">
+
+            <h5>Statement</h5>
+
+            <div class="table-responsive">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Date</th>
+                            <th scope="col">Amount</th>
+                            <th scope="col">Balance</th>
+                        </tr>
+                    </thead>
+                    <tbody id="list">
+
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section id = "sort_section" class="container pt-4 bg-light" style="display: none">
+            <button type="click" id="btn_sort" class="btn btn-secondary py-1 mb-4">Sort by amount</button>
+        </section>
+
+        <section id="filter_section" class="container pt-4 bg-light" style="display: none">
+            <form id="filter_form">
+                <div class="form-group row">
+                    <label for="inputAmount" class="col-2 col-form-label">Amount</label>
+
+                    <div class="col">
+                        <input type="text" class="form-control" id="filter_from" placeholder="from Eur">
+                    </div>
+                    <div class="col">
+                        <input type="text" class="form-control" id="filter_to" placeholder="to Eur">
+                    </div>
+                    <div class="col">
+                        <button type="submit" class="btn btn-info py-1 mb-4">Filter</button>
+                    </div>
+                </div>
+            </form>
+
+        </section>
+    </main>
+
+    <script src="JS/main.js"></script>
+</body></html>

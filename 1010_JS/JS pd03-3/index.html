@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/normalise.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/style.css">
+
+
+</head>
+
+<body>
+    <div class="container">
+        <h2>BMI calculator</h2>
+        <br>
+        <form name="bmi">
+            <div class="form-group row">
+                <label for="weightKg" class="col-2 col-form-label">Enter weight in kg:</label>
+                <div class="col-4">
+                    <input type="text" class="form-control" id="weightKg" name="weightKg" placeholder="Weight in kg">
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <label for="heightCm" class="col-2 col-form-label">Enter height in cm:</label>
+                <div class="col-4">
+                    <input type="text" class="form-control" id="heightCm" placeholder="Height in cm">
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <div class="col-sm-10">
+                    <button type="submit" class="btn btn-primary">Calculate</button>
+                </div>
+            </div>
+        </form>
+
+        <div class="row">
+            <div class="col-6">
+                <p id="warning" class="text-danger"></p>
+                <p id="result"></p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="JS/main.js"></script>
+
+</body>
+
+</html>
